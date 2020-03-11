@@ -14,15 +14,15 @@ void draw() {
   mouse = new PVector(mouseX, mouseY);
   if(mousePressed){
     if((currentAgent < maxAgents) && (agentNum < maxAgents)){
-      Agents[currentAgent] = new Agent(mouse, 10, .1);
+      Agents[currentAgent] = new Agent(mouse, 20, .1);
       currentAgent++;
       agentNum++;
     } else if (currentAgent < maxAgents && agentNum == maxAgents) {
-      Agents[currentAgent] = new Agent(mouse, 10, .1);
+      Agents[currentAgent] = new Agent(mouse, 20, .1);
       currentAgent++;
     } else {
       currentAgent = 0;
-      Agents[currentAgent] = new Agent(mouse, 10, .1);
+      Agents[currentAgent] = new Agent(mouse, 20, .1);
     }
   }
   
