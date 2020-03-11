@@ -25,7 +25,7 @@ void draw() {
       Agents[currentAgent] = new Agent(mouse, 20, .1);
     }
   }
-  
+//comment
   println(currentAgent);
   
   for(int i = 0; i < agentNum; i++){
